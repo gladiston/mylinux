@@ -3,4 +3,4 @@
 3. [Durante a instalação, não instale NVIDIA](install_nvidia_ignore.md)
 4. [Atualize o sistema](apt_update.md)
 5. [Complete o idioma em português](apt_pt.md)  
-6. 
+6. [Tenho uma placa NVIDIA?](nvidia_have.md)
