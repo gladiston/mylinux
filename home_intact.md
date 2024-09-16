@@ -31,8 +31,8 @@ rm ~/.gtkrc-2.0
 ## Dicas adicionais:  
 Remover pastas específicas de aplicativos: Se um aplicativo específico estiver causando problemas, remova apenas as pastas correspondentes, como ~/.config ou ~/.local/share.
 
-## Cuidado com o instalador  
-Alguns instaladores quando perguntam qual conta será criada e você responder *joedoe* e já existir */home/joedoe*, irá destruir esta pasta! Assim, antes de proceder uma nova instalação renomeie a pasta existente:  
+## Cuidado com o instalador ☠️☠️☠️  
+Alguns instaladores quando perguntam qual conta será criada e você responder *johdoe* e já existir */home/johdoe*, irá destruir esta pasta! Assim, antes de proceder uma nova instalação, renomeie a pasta existente:  
 ```bash
 cd /home
 mv johdoe johdoe.1
