@@ -1,6 +1,4 @@
-# Guia de instalação do Linux Fedora num Acer Nitro
-
-## PRÉ-INSTALAÇÃO NO ACER NITRO
+## PRÉ-INSTALAÇÃO NO ACER NITRO - SECURITY BOOT
 
 O Acer Nitro 5 vem equipado com o chamado “Secure Boot”, que na prática impede que sistemas operacionais diferentes do Windows sejam instalados. Então, há mudanças que precisam ser feitas aqui.
 
