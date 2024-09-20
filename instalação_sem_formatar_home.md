@@ -1,0 +1,1 @@
+instalação_sem_formatar_home.md
