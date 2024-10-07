@@ -4,4 +4,4 @@
 4. [Atualize o sistema](apt_update.md)
 5. [Complete o idioma em português](apt_pt.md)  
 6. [Tenho uma placa NVIDIA?](nvidia_have.md)
-7. Estou usando uma placa de vídeo dedicada NVIDIA?(nvidia_question.md)
+7. [Estou usando uma placa de vídeo dedicada NVIDIA?](nvidia_question.md)
