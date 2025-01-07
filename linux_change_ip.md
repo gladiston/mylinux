@@ -18,12 +18,16 @@ A saída será semelhante a:
 ```
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
-    link/ether 08:00:27:53:8b:dc brd ff:ff:ff:ff:ff:ff
+2: enp8s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether 74:56:3c:f0:18:b4 brd ff:ff:ff:ff:ff:ff
+4: wlx002211010fe8: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether 00:22:11:01:0f:e8 brd ff:ff:ff:ff:ff:ff
 ```
 
 - `lo`: Interface de loopback (ignorar).
-- Interface relevante: geralmente `eth0`, `enp0s3` ou outro nome. Verifique qual está ativa.
+- Interface relevante com cabo: geralmente `eth0`, `enp8s0` ou outro nome. 
+- Interface relevante sem fios(wifi): geralmente `wlx*`, ex: wlx002211010fe8. O sufixo geralmente repete o MacAddr da placa.
+Verifique qual está ativa, isso é importante, pois será a que vamos alterar, geralmente é a interface de rede com cabos porque é a mais importante.
 
 Para identificar qual interface está conectada à rede, use:
 
