@@ -35,7 +35,7 @@ Saída exemplo:
 
 ```
 DEVICE      TYPE      STATE      CONNECTION
-enp0s3      ethernet  connected  Wired connection 1
+enp0s3      ethernet  connected  netplan-enp8s0
 lo          loopback  unmanaged  --
 ```
 
@@ -49,14 +49,14 @@ Com o nome da interface identificado, configure o IP local usando o `nmcli`.
 Substitua os valores pelos desejados:
 
 ```bash
-nmcli connection modify "Wired connection 1" \
+nmcli connection modify "netplan-enp8s0" \
   ipv4.addresses 192.168.1.3/24 \
   ipv4.gateway 192.168.1.254 \
   ipv4.dns "192.168.1.3,8.8.8.8" \
   ipv4.method manual
 ```
 
-Se a conexão não se chama `Wired connection 1`, descubra o nome correto:
+Se a conexão não se chama `netplan-enp8s0`, descubra o nome correto:
 
 ```bash
 nmcli connection show
@@ -69,8 +69,8 @@ E substitua o nome no comando acima.
 Reinicie a conexão para aplicar as novas configurações:
 
 ```bash
-nmcli connection down "Wired connection 1"
-nmcli connection up "Wired connection 1"
+nmcli connection down "netplan-enp8s0"
+nmcli connection up "netplan-enp8s0"
 ```
 
 ---
